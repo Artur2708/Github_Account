@@ -1,0 +1,89 @@
+tr
+{
+    width: 90%;
+    height: 84.07px;
+
+}
+
+table
+{
+   
+    margin-left: 5%; 
+    width:90%;
+    text-align: left;
+    margin-top:2%;
+    border-collapse:collapse;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+body
+{
+    background-color: rgb(139, 139, 139);
+}
+.tr_bot
+{
+    border-bottom: 3px solid rgba(0, 0, 0, 0.616);
+    text-align: right;
+}
+a{
+    color: rgba(235, 222, 224, 0.787);
+}
+img
+{
+    width: 100%;
+   
+}
+#name,#search
+{
+    font-size: 22px;
+    font-weight: bold;
+    text-align:left;
+}
+#followers, #following
+{
+    font-size: 20px;
+    font-weight:normal;
+}
+#lupa
+{ 
+    width: 30px;
+    position: absolute;
+}
+#log
+{
+    width:20%;
+    height: 30px;
+    background-color:  rgb(139, 139, 139);
+    border: 0;
+}
+
+#modal 
+{
+    background-color: #1af3ab88;
+    font-size: 24px;
+    font-weight: bold;
+    width: 400px;
+    height: fit-content;
+    position: absolute;
+    top: -10px;
+    left: 500px;
+    transition: all 1000ms;
+    text-align: center;
+}
+
+.nodispl 
+{
+    transform: scaleY(0);
+}
+
+.rollup 
+{
+    transform: scaleY(1);
+}
+
+#error
+{
+    font-size: 26px;
+    font-weight: bold;
+}
+
